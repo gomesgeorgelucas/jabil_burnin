@@ -8,21 +8,25 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Animation;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Navigation;
 
 namespace Burnin
 {
-    public partial class MainPage : UserControl
+    public partial class Page1 : Page
     {
-        public MainPage()
+        public Page1()
         {
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        // Executes when the user navigates to this page.
+        protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-         
         }
+
+
+    
+
     }
 }
