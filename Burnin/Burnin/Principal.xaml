@@ -36,15 +36,19 @@
                 <telerik:CategoricalDataPoint Category="{x:Null}" IsSelected="False" Label="30" Value="30"/>
             </telerik:BarSeries>
         </telerik:RadCartesianChart>
-        <TextBlock HorizontalAlignment="Left" Margin="135,121,0,0" TextWrapping="Wrap" Text="Temperatura: " FontSize="20" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="135,218,0,0" TextWrapping="Wrap" Text="Humidade: " FontSize="20" VerticalAlignment="Top"/>
-        <TextBox Name ="Temp1" HorizontalAlignment="Left" Height="59" Margin="301,119,0,0" TextWrapping="Wrap" FontSize="18" Text="Temperatura" VerticalAlignment="Top" Width="83" TextChanged="TextBox_TextChanged"/>
-        <TextBox Name ="Temp2" HorizontalAlignment="Left" Height="59" Margin="435,121,0,0" TextWrapping="Wrap" FontSize="18" Text="Temperatura" VerticalAlignment="Top" Width="83" TextChanged="TextBox_TextChanged"/>
-        <TextBox Name ="Temp3" HorizontalAlignment="Left" Height="59" Margin="574,121,0,0" TextWrapping="Wrap" FontSize="18" Text="Temperatura" VerticalAlignment="Top" Width="83" TextChanged="TextBox_TextChanged"/>
-        <TextBox Name ="Temp4" HorizontalAlignment="Left" Height="59" Margin="717,121,0,0" TextWrapping="Wrap" FontSize="18" Text="Temperatura" VerticalAlignment="Top" Width="83" TextChanged="TextBox_TextChanged"/>
-        <TextBox Name ="Hum1" HorizontalAlignment="Left" Height="59" Margin="301,216,0,0" TextWrapping="Wrap" FontSize="18" Text="Humidade" VerticalAlignment="Top" Width="83" TextChanged="TextBox_TextChanged"/>
-        <TextBox Name ="Hum2" HorizontalAlignment="Left" Height="59" Margin="435,216,0,0" TextWrapping="Wrap" FontSize="18" Text="Humidade" VerticalAlignment="Top" Width="83" TextChanged="TextBox_TextChanged"/>
-        <TextBox Name ="Hum3" HorizontalAlignment="Left" Height="59" Margin="574,216,0,0" TextWrapping="Wrap" FontSize="18" Text="Humidade" VerticalAlignment="Top" Width="83" TextChanged="TextBox_TextChanged"/>
-        <TextBox Name ="Hum4" HorizontalAlignment="Left" Height="59" Margin="717,217,0,0" TextWrapping="Wrap" FontSize="18" Text="Humidade" VerticalAlignment="Top" Width="83" TextChanged="TextBox_TextChanged"/>
+        <TextBlock HorizontalAlignment="Left" Margin="151,123,0,0" TextWrapping="Wrap" Text="Temperatura: " FontSize="20" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="151,220,0,0" TextWrapping="Wrap" Text="Humidade: " FontSize="20" VerticalAlignment="Top"/>
+        <TextBox Name ="Temp1" HorizontalAlignment="Left" Height="59" Margin="317,121,0,0" TextWrapping="Wrap" FontSize="18" Text="Temperatura" VerticalAlignment="Top" Width="83" TextChanged="TextBox_TextChanged"/>
+        <TextBox Name ="Temp2" HorizontalAlignment="Left" Height="59" Margin="451,123,0,0" TextWrapping="Wrap" FontSize="18" Text="Temperatura" VerticalAlignment="Top" Width="83" TextChanged="TextBox_TextChanged"/>
+        <TextBox Name ="Temp3" HorizontalAlignment="Left" Height="59" Margin="590,123,0,0" TextWrapping="Wrap" FontSize="18" Text="Temperatura" VerticalAlignment="Top" Width="83" TextChanged="TextBox_TextChanged"/>
+        <TextBox Name ="Temp4" HorizontalAlignment="Left" Height="59" Margin="733,123,0,0" TextWrapping="Wrap" FontSize="18" Text="Temperatura" VerticalAlignment="Top" Width="83" TextChanged="TextBox_TextChanged"/>
+        <TextBox Name ="Hum1" HorizontalAlignment="Left" Height="59" Margin="317,218,0,0" TextWrapping="Wrap" FontSize="18" Text="Humidade" VerticalAlignment="Top" Width="83" TextChanged="TextBox_TextChanged"/>
+        <TextBox Name ="Hum2" HorizontalAlignment="Left" Height="59" Margin="451,218,0,0" TextWrapping="Wrap" FontSize="18" Text="Humidade" VerticalAlignment="Top" Width="83" TextChanged="TextBox_TextChanged"/>
+        <TextBox Name ="Hum3" HorizontalAlignment="Left" Height="59" Margin="590,218,0,0" TextWrapping="Wrap" FontSize="18" Text="Humidade" VerticalAlignment="Top" Width="83" TextChanged="TextBox_TextChanged"/>
+        <TextBox Name ="Hum4" HorizontalAlignment="Left" Height="59" Margin="733,219,0,0" TextWrapping="Wrap" FontSize="18" Text="Humidade" VerticalAlignment="Top" Width="83" TextChanged="TextBox_TextChanged"/>
+        <TextBlock HorizontalAlignment="Left" Margin="317,77,0,0" TextWrapping="Wrap" Text="Sensor 01" FontSize="18" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="451,77,0,0" TextWrapping="Wrap" Text="Sensor 02" FontSize="18" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="590,77,0,0" TextWrapping="Wrap" Text="Sensor 03" FontSize="18" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="733,77,0,0" TextWrapping="Wrap" Text="Sensor 04" FontSize="18" VerticalAlignment="Top"/>
     </Grid>
 </navigation:Page>
